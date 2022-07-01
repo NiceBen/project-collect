@@ -17,6 +17,7 @@
 
     <modules>
         <module>project-jpa</module>
+        <module>project-mpa</module>
     </modules>
 
     <build>
