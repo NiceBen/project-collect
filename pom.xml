@@ -18,7 +18,6 @@
     <modules>
         <module>project-jpa</module>
         <module>project-mpa</module>
-
         <module>project-other</module>
     </modules>
 
