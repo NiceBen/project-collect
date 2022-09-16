@@ -21,6 +21,7 @@
         <module>project-other</module>
         <module>project-cas</module>
         <module>project-security</module>
+        <module>project-tools</module>
     </modules>
 
     <build>
