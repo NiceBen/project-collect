@@ -14,6 +14,7 @@
         <module>project-cas</module>
         <module>project-security</module>
         <module>project-tools</module>
+        <module>project-monitor</module>
     </modules>
 
     <packaging>pom</packaging>

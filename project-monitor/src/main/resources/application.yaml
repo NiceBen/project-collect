@@ -1,0 +1,19 @@
+## server 端口
+server:
+  port: 9002
+
+## 监控
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enabled: true
