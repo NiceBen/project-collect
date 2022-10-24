@@ -1,0 +1,23 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: prometheus-demo
+
+## 暴漏监控
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#          - *
+#          - beans
+#          - metrics
+#          - prometheus
+  metrics:
+    tags:
+      application: ${spring.application.name}
+

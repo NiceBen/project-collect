@@ -15,6 +15,7 @@
         <module>project-security</module>
         <module>project-tools</module>
         <module>project-monitor</module>
+        <module>project-monitor2</module>
         <module>project-spring</module>
     </modules>
 
