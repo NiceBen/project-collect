@@ -1,5 +1,6 @@
-package com.niceben.projectspring.config;
+package com.niceben.projectspring.ioc.config;
 
+import com.niceben.projectspring.ioc.config.ExtConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

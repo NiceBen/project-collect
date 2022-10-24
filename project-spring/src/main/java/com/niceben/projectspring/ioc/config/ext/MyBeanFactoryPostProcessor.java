@@ -1,4 +1,4 @@
-package com.niceben.projectspring.config.ext;
+package com.niceben.projectspring.ioc.config.ext;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;

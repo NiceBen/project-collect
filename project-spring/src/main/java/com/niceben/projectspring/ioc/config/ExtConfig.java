@@ -1,6 +1,6 @@
-package com.niceben.projectspring.config;
+package com.niceben.projectspring.ioc.config;
 
-import com.niceben.projectspring.model.entity.Blue;
+import com.niceben.projectspring.ioc.model.entity.Blue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

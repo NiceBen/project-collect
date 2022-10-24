@@ -1,4 +1,4 @@
-package com.niceben.projectspring.model.entity;
+package com.niceben.projectspring.ioc.model.entity;
 
 public class Blue {
 
