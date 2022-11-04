@@ -1,8 +1,7 @@
 package com.niceben.projectmonitor2.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.niceben.projectmonitor2.model.dto.User;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Random;
 
@@ -14,5 +13,12 @@ public class TestController {
     public String hello() {
 
         return "hello :" + new Random().nextInt(10);
+    }
+
+
+    @PostMapping("/demo")
+    public String demo(@RequestBody User user) {
+        System.out.println(user);
+        return "hello world";
     }
 }
