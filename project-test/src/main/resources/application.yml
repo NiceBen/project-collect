@@ -1,0 +1,17 @@
+## tomcat 配置
+server:
+  port: 9005
+
+## Spring 配置
+spring:
+  jmx:
+    ### 关闭JMX监控配置
+    enable: false
+
+## 配置中心配置 tomcat 线程池核心参数
+  dynamic:
+    tp:
+      tomcatTp:
+        corePoolSize: 100
+        maximumPoolSize: 400
+        keepAliveTime: 60
