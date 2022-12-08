@@ -18,6 +18,7 @@
         <module>project-monitor2</module>
         <module>project-spring</module>
         <module>project-test</module>
+        <module>project-event</module>
     </modules>
 
     <packaging>pom</packaging>
