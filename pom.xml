@@ -35,12 +35,13 @@
         <failOnMissingWebXml>false</failOnMissingWebXml><!--打war不需要web.xml-->
         <skipTests>true</skipTests><!--打包跳过测试-->
 
-
         <spring.boot.version>2.6.9</spring.boot.version>
         <mysql.version>8.0.21</mysql.version>
+        <druid.version>1.2.15</druid.version>
         <hutool.version>5.4.5</hutool.version>
         <guava.version>31.1-jre</guava.version>
-        <user.agent.version>1.20</user.agent.version>
+        <user.agent.version>1.21</user.agent.version>
+        <fastjson.version>2.0.20</fastjson.version>
     </properties>
 
     <!-- 使用 aliyun 的 Maven 源，提升下载速度 -->
@@ -67,28 +68,47 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- 阿里数据库连接池 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <!-- mysql数据库驱动 -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
+
             <!-- hutool工具类 -->
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
             </dependency>
+
             <!-- guava工具类 -->
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
             </dependency>
+
             <!-- 解析 UserAgent 信息 -->
             <dependency>
                 <groupId>eu.bitwalker</groupId>
                 <artifactId>UserAgentUtils</artifactId>
                 <version>${user.agent.version}</version>
+            </dependency>
+
+            <!-- 阿里JSON解析器 -->
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
