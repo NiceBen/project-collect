@@ -86,3 +86,21 @@ Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionExcep
 [TRACEID:] 2023-02-08 13:47:43.469 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
 [TRACEID:] 2023-02-08 13:47:43.506 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
 [TRACEID:] 2023-02-08 13:47:43.516 [restartedMain] INFO  com.niceben.projecttools.ProjectToolsApplication - Started ProjectToolsApplication in 4.018 seconds (JVM running for 4.975)
+[TRACEID:] 2023-02-08 14:53:09.912 [restartedMain] INFO  com.niceben.projecttools.ProjectToolsApplication - Starting ProjectToolsApplication using Java 1.8.0_144 on DESKTOP-16RODP4 with PID 56316 (E:\2022workspaceSC\project-collect\project-tools\target\classes started by dell in E:\2022workspaceSC\project-collect)
+[TRACEID:] 2023-02-08 14:53:09.931 [restartedMain] INFO  com.niceben.projecttools.ProjectToolsApplication - No active profile set, falling back to 1 default profile: "default"
+[TRACEID:] 2023-02-08 14:53:10.004 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[TRACEID:] 2023-02-08 14:53:10.004 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[TRACEID:] 2023-02-08 14:53:12.522 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+[TRACEID:] 2023-02-08 14:53:12.523 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[TRACEID:] 2023-02-08 14:53:12.523 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TRACEID:] 2023-02-08 14:53:12.523 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TRACEID:] 2023-02-08 14:53:12.605 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[TRACEID:] 2023-02-08 14:53:12.645 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+[TRACEID:] 2023-02-08 14:53:12.645 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TRACEID:] 2023-02-08 14:53:12.645 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[TRACEID:] 2023-02-08 14:53:12.836 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TRACEID:] 2023-02-08 14:53:12.836 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2831 ms
+[TRACEID:] 2023-02-08 14:53:13.592 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[TRACEID:] 2023-02-08 14:53:13.607 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+[TRACEID:] 2023-02-08 14:53:13.640 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+[TRACEID:] 2023-02-08 14:53:13.649 [restartedMain] INFO  com.niceben.projecttools.ProjectToolsApplication - Started ProjectToolsApplication in 4.585 seconds (JVM running for 5.822)
